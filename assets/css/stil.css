@@ -52,10 +52,52 @@ nav a:hover, a:active {
 }
 
 main {
+	font-size: 3vh;
 	width: 80%;
-	height: 85%;
+	height: 75%;
 	background: #FFE0D2;
 	float: left;
+	padding: 5%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label, input, button {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+
+main form input[type="submit"] {
+	margin-left: 25%;
+	border: none;
+	border-radius: 1%;
+	background-color: #AD6240;
+	color: white;
+	width: 15%;
+	line-height: 250%;
+}
+
+main button {
+	margin-left: 2%;
+	border: none;
+	border-radius: 1%;
+	background-color: #AD6240;
+	color: white;
+	width: 15%;
+	line-height: 250%;
 }
 
 footer {
@@ -63,6 +105,7 @@ footer {
 	height: 10%;
 	background: #FFF2EC;
 	float: left;
+	padding: 1em;
 }
 
 .wrapper {
