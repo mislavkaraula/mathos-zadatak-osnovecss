@@ -90,6 +90,10 @@ main form input[type="submit"] {
 	line-height: 250%;
 }
 
+main form input[type="submit"]:hover {
+	background-color: #582D19;
+}
+
 main button {
 	margin-left: 2%;
 	border: none;
@@ -98,6 +102,10 @@ main button {
 	color: white;
 	width: 15%;
 	line-height: 250%;
+}
+
+main button:hover {
+	background-color: #582D19;
 }
 
 footer {
